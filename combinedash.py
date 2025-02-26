@@ -41,7 +41,7 @@ if menu == "Manufacturing Companies":
     st.markdown('<div class="big-font">Manufacturing Companies</div>', unsafe_allow_html=True)
     
     # Load company data
-    file_path_companies = r'C:\Users\EliteBook 840 G4\Downloads\companies_cleaned.xlsx'
+    file_path_companies = 'companies_cleaned.xlsx'
     df_companies = pd.read_excel(file_path_companies)
 
     # Key Metrics as cards
@@ -87,7 +87,7 @@ elif menu == "Investors":
     st.markdown('<div class="big-font">Investors</div>', unsafe_allow_html=True)
 
     # Load investor data
-    file_path_investors = r'C:\Users\EliteBook 840 G4\Downloads\cleaned_investors_list.xlsx'
+    file_path_investors = 'cleaned_investors_list.xlsx'
     df_investors = pd.read_excel(file_path_investors)
 
     # Key Metrics as cards
